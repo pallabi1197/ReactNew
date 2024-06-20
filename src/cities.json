@@ -1,0 +1,219 @@
+[
+    {
+      "id": 1,
+      "state": "Andhra Pradesh",
+      "city": ["Amravati", "Anantapur", "Chandragiri"],
+      "population": 52139800
+    },
+    {
+      "id": 2,
+      "state": "Arunachal Pradesh",
+      "city": ["Dibrugarh", "Dispur", "Guwahati"],
+      "population": 1570458
+    },
+    {
+      "id": 3,
+      "state": "Assam",
+      "city": "Dispur",
+      "population": 35607039
+    },
+    {
+      "id": 4,
+      "state": "Bihar",
+      "city": "Patna",
+      "population": 124799926
+    },
+    {
+      "id": 5,
+      "state": "Chhattisgarh",
+      "city": "Raipur",
+      "population": 29436231
+    },
+    {
+      "id": 6,
+      "state": "Goa",
+      "city": "Panaji",
+      "population": 1542750
+    },
+    {
+      "id": 7,
+      "state": "Gujarat",
+      "city": "Gandhinagar",
+      "population": 63872399
+    },
+    {
+      "id": 8,
+      "state": "Haryana",
+      "city": "Chandigarh",
+      "population": 28716299
+    },
+    {
+      "id": 9,
+      "state": "Himachal Pradesh",
+      "city": "Shimla",
+      "population": 7451955
+    },
+    {
+      "id": 10,
+      "state": "Jharkhand",
+      "city": "Ranchi",
+      "population": 38593948
+    },
+    {
+      "id": 11,
+      "state": "Karnataka",
+      "city": "Bengaluru",
+      "population": 67562686
+    },
+    {
+      "id": 12,
+      "state": "Kerala",
+      "city": "Thiruvananthapuram",
+      "population": 35699443
+    },
+    {
+      "id": 13,
+      "state": "Madhya Pradesh",
+      "city": "Bhopal",
+      "population": 85358965
+    },
+    {
+      "id": 14,
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "population": 123144223
+    },
+    {
+      "id": 15,
+      "state": "Manipur",
+      "city": "Imphal",
+      "population": 3091545
+    },
+    {
+      "id": 16,
+      "state": "Meghalaya",
+      "city": "Shillong",
+      "population": 3366710
+    },
+    {
+      "id": 17,
+      "state": "Mizoram",
+      "city": "Aizawl",
+      "population": 1239244
+    },
+    {
+      "id": 18,
+      "state": "Nagaland",
+      "city": "Kohima",
+      "population": 2249695
+    },
+    {
+      "id": 19,
+      "state": "Odisha",
+      "city": "Bhubaneswar",
+      "population": 46356334
+    },
+    {
+      "id": 20,
+      "state": "Punjab",
+      "city": "Chandigarh",
+      "population": 30141373
+    },
+    {
+      "id": 21,
+      "state": "Rajasthan",
+      "city": "Jaipur",
+      "population": 81032689
+    },
+    {
+      "id": 22,
+      "state": "Sikkim",
+      "city": "Gangtok",
+      "population": 690251
+    },
+    {
+      "id": 23,
+      "state": "Tamil Nadu",
+      "city": "Chennai",
+      "population": 77841267
+    },
+    {
+      "id": 24,
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "population": 38510982
+    },
+    {
+      "id": 25,
+      "state": "Tripura",
+      "city": "Agartala",
+      "population": 4169794
+    },
+    {
+      "id": 26,
+      "state": "Uttar Pradesh",
+      "city": "Lucknow",
+      "population": 231502578
+    },
+    {
+      "id": 27,
+      "state": "Uttarakhand",
+      "city": "Dehradun",
+      "population": 11250858
+    },
+    {
+      "id": 28,
+      "state": "West Bengal",
+      "city": "Kolkata",
+      "population": 99609303
+    },
+    {
+      "id": 29,
+      "state": "Andaman and Nicobar Islands",
+      "city": "Port Blair",
+      "population": 380581
+    },
+    {
+      "id": 30,
+      "state": "Chandigarh",
+      "city": "Chandigarh",
+      "population": 1055450
+    },
+    {
+      "id": 31,
+      "state": "Dadra and Nagar Haveli and Daman and Diu",
+      "city": "Daman",
+      "population": 959920
+    },
+    {
+      "id": 32,
+      "state": "Lakshadweep",
+      "city": "Kavaratti",
+      "population": 64473
+    },
+    {
+      "id": 33,
+      "state": "Delhi",
+      "city": "New Delhi",
+      "population": 317797
+    },
+    {
+      "id": 34,
+      "state": "Puducherry",
+      "city": "Puducherry",
+      "population": 1247953
+    },
+    {
+      "id": 35,
+      "state": "Jammu and Kashmir",
+      "city": "Srinagar (summer), Jammu (winter)",
+      "population": 13606320
+    },
+    {
+      "id": 36,
+      "state": "Ladakh",
+      "city": "Leh",
+      "population": 274289
+    }
+  ]
+  
