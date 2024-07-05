@@ -23,7 +23,7 @@ const Testing = () => {
       <Container>
         <Row className="mt-3 py-3">
           <InputGroup>
-            <Form.Control type="number" value={num1} onChange={handleChange1} />
+            <Form.Control type="number" value={num1} onChange={handleChange1}/>
             <Form.Control type="number" value={num2} onChange={handleChange2} />
             <Form.Control type="number" readOnly value={sum} />
           </InputGroup>
