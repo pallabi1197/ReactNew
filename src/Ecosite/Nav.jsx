@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const Nav = () => {
-
-    const Nav = styled.nav`
+  const Nav = styled.nav`
     .navbar-list {
       display: flex;
       gap: 4.8rem;
@@ -17,36 +16,48 @@ const Nav = () => {
           &:visited {
             display: inline-block;
             text-decoration: none;
-            font-size: 1.8rem;
+            font-size: 1rem;
             text-transform: uppercase;
             color: ${({ theme }) => theme.colors.black};
             transition: color 0.3s linear;
           }
-`; 
+
+          &:hover,
+          &:active {
+            color: ${({ theme }) => theme.colors.helper};
+          }
+        }
+      }
+    }
+     
+  `;
 
   return (
     <Nav>
-      <div className="menu-icon">
-        <ul className="nabvar-list">
-          <li>
-            <NavLink to="/" className="navbar-link">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about" className="navbar-link">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/services" className="navbar-link">Services</NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact" className="navbar-link">Contact</NavLink>
-          </li>
-        </ul>
-      </div>
+      <ul className="navbar-list">
+        <li>
+          <NavLink className="navbar-link" to="/">
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="navbar-link" to="/about">
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="navbar-link" to="/services">
+            Services
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="navbar-link" to="/contact">
+            Contact
+          </NavLink>
+        </li>
+      </ul>
     </Nav>
   );
-
- 
-
 };
 
 export default Nav;

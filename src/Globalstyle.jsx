@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = `createGlobalStyle
+export const GlobalStyle = createGlobalStyle`
 
 *{
   margin: 0;
@@ -9,7 +9,7 @@ export const GlobalStyle = `createGlobalStyle
   font-family: 'Work Sans', sans-serif;
  }
 html {
-  font-size: 62.5%;
+  font-size: 1rem;
   /* scroll-behavior: smooth; */
   /* 1rem = 10px */
   overflow-x: hidden;

@@ -10,6 +10,7 @@ import Contact from "./Ecosite/Contact";
 import Header from "./Ecosite/Header";
 import Footer from "./Ecosite/Footer";
 import { ThemeProvider } from "styled-components";
+import { GlobalStyle } from "./Globalstyle";
 
 function App() {
   
@@ -20,7 +21,7 @@ function App() {
       white: "#fff",
       black: " #212529",
       helper: "#8490ff",
-      bg: "rgb(249 249 255)",
+      bg: "rgb(239 239 249)",
       footer_bg: "#0a1435",
       btn: "rgb(98 84 243)",
       border: "rgba(98, 84, 243, 0.5)",
@@ -39,6 +40,7 @@ function App() {
       {/* <ShowStateCity/>
   <Testing /> */}
       <ThemeProvider theme={theme}>
+       <GlobalStyle/>
         <BrowserRouter>
           <Header />
           <Routes>
