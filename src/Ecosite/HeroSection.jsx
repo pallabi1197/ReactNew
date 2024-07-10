@@ -22,7 +22,7 @@ const HeroSection = ({name,image}) => {
             </Button>
           </div>
           <div className="section-hero-image">
-            <img src={image } width={400} className="hero-img" />
+            <img src={image} width={400} className="hero-img" />
           </div>
         </div>
       </Wrapper>
