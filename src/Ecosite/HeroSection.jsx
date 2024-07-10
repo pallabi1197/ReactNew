@@ -1,17 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Button } from "./Styles/button";
+import { Button } from "./styles/button";
 import styled from "styled-components";
-import cute from "./Assets/cute.jpg";
+import Cat from "./Assets/Cat.jpg";
 
-const HeroSection = (props) => {
+const HeroSection = ({name,image}) => {
   return (
     <div>
       <Wrapper>
         <div className="container grid grid-two-column">
           <div className="section-hero-data">
             <p className="hero-top-data">Welcome to</p>
-            <h1 className="hero-heading">{props.name}</h1>
+            <h1 className="hero-heading">{name}</h1>
             <p className="hero-para">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
@@ -22,7 +22,7 @@ const HeroSection = (props) => {
             </Button>
           </div>
           <div className="section-hero-image">
-            <img src={props.image} width={400} className="hero-img" />
+            <img src={image } width={400} className="hero-img" />
           </div>
         </div>
       </Wrapper>
@@ -31,6 +31,7 @@ const HeroSection = (props) => {
 };
 const Wrapper = styled.section`
   padding: 5rem 0;
+  background: #cdeeff;
 
   .section-hero-data {
     display: flex;

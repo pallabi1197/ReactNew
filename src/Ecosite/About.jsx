@@ -1,15 +1,15 @@
 import React from "react";
 import HeroSection from "./HeroSection";
-import aboutimg from "./Assets/About.jpg";
+
 
 const About = () => {
   const data = {
     name: "Pallabi Das",
-    image: { aboutimg },
+    image: "",
   };
   return (
     <div>
-      <HeroSection {...data} />
+      < HeroSection {...data} />
     </div>
   );
 };

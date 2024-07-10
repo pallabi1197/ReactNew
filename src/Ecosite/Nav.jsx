@@ -7,6 +7,7 @@ const Nav = () => {
     .navbar-list {
       display: flex;
       gap: 4.8rem;
+      margin-bottom : 0;
 
       li {
         list-style: none;
