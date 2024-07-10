@@ -21,7 +21,7 @@ function App() {
       white: "#fff",
       black: " #212529",
       helper: "#8490ff",
-      bg: "rgb(239 239 249)",
+      bg: "rgb(230 230 250)",
       footer_bg: "#0a1435",
       btn: "rgb(98 84 243)",
       border: "rgba(98, 84, 243, 0.5)",
