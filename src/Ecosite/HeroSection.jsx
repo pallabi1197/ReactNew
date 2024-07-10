@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "./styles/button";
 import styled from "styled-components";
-import Cat from "./Assets/Cat.jpg";
+
 
 const HeroSection = ({name,image}) => {
   return (
