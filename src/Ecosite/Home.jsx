@@ -1,5 +1,5 @@
-import React from 'react'
-import HeroSection from './HeroSection'
+import React from "react";
+import HeroSection from "./HeroSection";
 
 const Home = () => {
   const data = {
@@ -8,9 +8,9 @@ const Home = () => {
   };
   return (
     <div>
-     < HeroSection {...data}/>
+      <HeroSection {...data} />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

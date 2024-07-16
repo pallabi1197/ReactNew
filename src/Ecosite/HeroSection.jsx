@@ -2,9 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "./styles/button";
 import styled from "styled-components";
+import { useGlobalContext } from "./context";
 
-
-const HeroSection = ({name,image}) => {
+const HeroSection = ({ name, image }) => {
+  const firstName = useGlobalContext();
   return (
     <div>
       <Wrapper>
@@ -13,7 +14,8 @@ const HeroSection = ({name,image}) => {
             <p className="hero-top-data">Welcome to</p>
             <h1 className="hero-heading">{name}</h1>
             <p className="hero-para">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+              {firstName} is
+               simply dummy text of the printing and typesetting
               industry.
             </p>
 
@@ -52,7 +54,6 @@ const Wrapper = styled.section`
 
   .hero-heading {
     text-transform: uppercase;
-   
   }
 
   .hero-para {
