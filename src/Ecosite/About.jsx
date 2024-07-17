@@ -5,7 +5,7 @@ import HeroSection from "./HeroSection";
 
 const About = () => {
   const data = {
-    name: "Pallabi Das",
+    name: "My Profile",
     image: "./images/about.png",
   };
   return (

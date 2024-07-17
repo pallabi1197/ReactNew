@@ -1,48 +1,18 @@
-import React, { useContext, useReducer } from "react";
-import reducer from "./reducer.jsx";
+// to avoid prop-drilling we use react hooks
+// create a context (warehouse - hub of data)
+// provider (to get data and store it in warehouse)
+// consumer (calling data with the help of provider) / useContext hook
 
-// create a context (warehouse) [hub of data]
-// provider [to get data and transfer to consumer]
-// consumer [to get data by calling api]/ useContext hook
+import React from "react";
+import { useContext } from "react";
 
 const AppContext = React.createContext();
 
-const intialState = {
-  name: "",
-  image: "",
-};
-
-const updateHomePage = () => {
-  return dispatch({
-    type: "HOME_UPDATE",
-    Payload: {
-      name: "Creative Cloud",
-      image: "./images/cat.jpg",
-    },
-  });
-};
-
-const updateAboutPage = () => {
-  return dispatch({
-    type: "HOME_UPDATE",
-    Payload: {
-      name: "Pallabi Das",
-      image: "./images/about.png",
-    },
-  });
-};
-
 const AppProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer, intialState);
-
-  return (
-    <AppContext.Provider value={{ ...state, updateHomePage, updateAboutPage }}>
-      {children}
-    </AppContext.Provider>
-  );
+  return <AppContext.Provider value={{fname: "Jack", age:"34"}}>{children}</AppContext.Provider>;
 };
 
-//global custom hook
+// create custom hook
 
 const useGlobalContext = () => {
   return useContext(AppContext);
