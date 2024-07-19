@@ -23,10 +23,13 @@ const reducer = (state, action) => {
 };
 
 const Usereduser = () => {
+
+  // const [count,setCount] = useState(0);
+  
   const [state, dispatch] = useReducer(reducer, intialState);
 
   return (
-    <div className="btnstyle">
+     <div className="btnstyle">
       <button onClick={() => dispatch({ type: "INCREMENT" })}>Inc</button>
       <p>{state}</p>
       <button onClick={() => dispatch({ type: "DECREMENT" })}>Dec</button>

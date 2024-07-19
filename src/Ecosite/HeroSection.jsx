@@ -4,9 +4,8 @@ import { Button } from "./styles/button";
 import styled from "styled-components";
 import { useGlobalContext } from "./context";
 
-
 const HeroSection = ({ name, image }) => {
-const {fname, age} = useGlobalContext();
+  const { fname, age } = useGlobalContext();
   return (
     <div>
       <Wrapper>
@@ -15,9 +14,7 @@ const {fname, age} = useGlobalContext();
             <p className="hero-top-data">Welcome to</p>
             <h1 className="hero-heading">{name}</h1>
             <p className="hero-para">
-               <strong>{fname} his age is {age}</strong> is
-               simply dummy text of the printing and typesetting
-              industry.
+              <span style={{fontSize:'20px'}}>{fname} his age is {age}</span> is a Mean-Stack Developer has proficiency in technical skills
             </p>
 
             <Button className="btn hireme-btn">
