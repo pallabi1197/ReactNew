@@ -4,8 +4,8 @@ import { Button } from "./styles/button";
 import styled from "styled-components";
 import { useGlobalContext } from "./context";
 
-const HeroSection = ({ name, image }) => {
-  const { fname, age } = useGlobalContext();
+const HeroSection = () => {
+  const { name, image,fname,age } = useGlobalContext();
   return (
     <div>
       <Wrapper>

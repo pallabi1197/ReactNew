@@ -4,7 +4,7 @@ import React, { useReducer, useState } from "react";
 // reducer function are pure function to accept state and actions.
 //Pure function - The function always returns the same output if the same arguments passed in.
 // The function does not produce any side-effects.
-// Role of dispatch to trigger the action method.
+// Role of dispatch to trigger the action method of our reducer function
 
 
 const intialState = 0;
