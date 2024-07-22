@@ -7,7 +7,7 @@ const AppContext = React.createContext();
 const intialState = {
   name: "",
   image: "",
-  services:[],
+  services: [],
 };
 
 const AppProvider = ({ children }) => {
@@ -32,24 +32,6 @@ const AppProvider = ({ children }) => {
       },
     });
   };
-
-  //to get the api
-
-  // const getServices = async (url) => {
-  //   try {
-  //     const res = await fetch(url);
-  //     const data = await res.json();
-  //     dispatch({type:"GET_SERVICES", payload: data})
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // // to call the api
-
-  // useEffect(() => {
-  //   getServices(API);
-  // }, []);
 
   return (
     <AppContext.Provider
