@@ -1,8 +1,12 @@
 import React, { useReducer } from "react";
 import { useContext } from "react";
 import reducer from "../reducer";
+import { useEffect } from "react";
+
 
 const AppContext = React.createContext();
+
+const API = "http://localhost:8000/services";
 
 const intialState = {
   name: "",
@@ -32,6 +36,24 @@ const AppProvider = ({ children }) => {
       },
     });
   };
+
+  // to call the api
+
+  const getServices = async (url) => {
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+      dispatch({type: "GET_SERVICES", payload: data});
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  //to get the api
+
+  useEffect(() => {
+    getServices(API);
+  }, []);
 
   return (
     <AppContext.Provider

@@ -1,0 +1,40 @@
+{
+    "services":  [
+        {
+            "id": 1,
+            "title": "Web Development",
+            "image": "https://i.pinimg.com/564x/e0/74/2e/e0742eb995530288e38912fae386887e.jpg",
+            "description": "Professional web development services to create robust and scalable web applications tailored to your business needs."
+        },
+        {
+            "id": 2,
+            "title": "Graphic Design",
+            "image": "https://i.pinimg.com/236x/3a/e6/76/3ae676d4a95716cac669fbabb4cbf199.jpg",
+            "description": "Creative graphic design solutions for your brand, including logos, brochures, and marketing materials."
+        },
+        {
+            "id": 3,
+            "title": "Digital Marketing",
+            "image": "https://i.pinimg.com/564x/71/31/b5/7131b55713fbe1e3fbe38990d2169c7a.jpg",
+            "description": "Comprehensive digital marketing strategies to enhance your online presence and drive traffic to your website."
+        },
+        {
+            "id": 4,
+            "title": "SEO Services",
+            "image": "https://i.pinimg.com/564x/9b/3c/03/9b3c032b0685a0b51758f292161c286f.jpg",
+            "description": "Expert SEO services to improve your website's search engine rankings and increase organic traffic."
+        },
+        {
+            "id": 5,
+            "title": "Content Writing",
+            "image": "https://i.pinimg.com/564x/5e/42/c0/5e42c021f051a6d7bc6f6bba4bdc2e42.jpg",
+            "description": "High-quality content writing services to engage your audience and convey your message effectively."
+        },
+        {
+            "id": 6,
+            "title": "Mobile App",
+            "image": "https://i.pinimg.com/564x/4b/43/3c/4b433cdc1e6a42211f43426d91afad12.jpg",
+            "description": "Custom mobile app development services to create innovative and user-friendly mobile applications for both iOS and Android platforms."
+        }
+    ]
+  }
