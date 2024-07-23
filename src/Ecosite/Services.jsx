@@ -3,7 +3,7 @@ import HeroSection from "./HeroSection";
 import { useGlobalContext } from "./context";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import { Button } from "./styles/button.jsx";
+
 
 const Services = () => {
   const { services } = useGlobalContext();
@@ -25,7 +25,7 @@ const Services = () => {
                 <h3>{title}</h3>
 
                 <NavLink to="/services">
-                  <Button className="btn">Read More</Button>
+                  {/* <Button className="btn">Read More</Button> */}
                 </NavLink>
               </div>
             </div>

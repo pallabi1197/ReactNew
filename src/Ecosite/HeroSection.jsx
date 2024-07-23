@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Button } from "./styles/button.jsx";
 import styled from "styled-components";
 import { useGlobalContext } from "./context";
 
@@ -17,9 +16,9 @@ const HeroSection = () => {
               <span style={{fontSize:'20px'}}>{fname} his age is {age}</span> is a Mean-Stack Developer has proficiency in technical skills
             </p>
 
-            <Button className="btn hireme-btn">
+            {/* <Button className="btn hireme-btn">
               <NavLink to="/contact">Hire me</NavLink>
-            </Button>
+            </Button> */}
           </div>
           <div className="section-hero-image">
             <img src={image} width={400} className="hero-img" />
