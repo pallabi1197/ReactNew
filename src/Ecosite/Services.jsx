@@ -25,7 +25,7 @@ const Services = () => {
                 <h3>{title}</h3>
 
                 <NavLink to="/services">
-                  {/* <Button className="btn">Read More</Button> */}
+                  <button className="btn">Read More</button>
                 </NavLink>
               </div>
             </div>

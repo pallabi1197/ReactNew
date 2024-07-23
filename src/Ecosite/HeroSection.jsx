@@ -16,9 +16,9 @@ const HeroSection = () => {
               <span style={{fontSize:'20px'}}>{fname} his age is {age}</span> is a Mean-Stack Developer has proficiency in technical skills
             </p>
 
-            {/* <Button className="btn hireme-btn">
-              <NavLink to="/contact">Hire me</NavLink>
-            </Button> */}
+           
+              <NavLink to="/contact" className="btn-hero">Hire me</NavLink>
+        
           </div>
           <div className="section-hero-image">
             <img src={image} width={400} className="hero-img" />
@@ -55,7 +55,6 @@ const Wrapper = styled.section`
 
   .hero-para {
     margin-top: 1.5rem;
-    margin-bottom: 3.4rem;
     max-width: 60rem;
   }
 
