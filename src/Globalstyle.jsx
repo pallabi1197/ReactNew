@@ -101,32 +101,38 @@ li {
 
 .common-heading {
   font-size: 3.8rem;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 6rem;
-  text-transform: capitalize;
+  
 }
 
 input, textarea{
 max-width: 50rem;
 color: ${({ theme }) => theme.colors.black};
-padding: 1.6rem 2.4rem;
+padding: 1rem 2rem;
 border: 1px solid ${({ theme }) => theme.colors.border};
-text-transform: uppercase;
 box-shadow: ${({ theme }) => theme.colors.shadowSupport};
 }
 input[type="submit"]{
-max-width: 16rem;
-margin-top: 2rem;
+max-width: 8rem;
 background-color: ${({ theme }) => theme.colors.btn};
 color: ${({ theme }) => theme.colors.white};
-padding: 1.4rem 2.2rem;
+padding: 1rem 2rem;
 border-style: solid;
 border-width: .1rem;
-text-transform: uppercase;
-font-size: 1.8rem;
+font-size: 1rem;
 cursor: pointer;
 }
 
+input:focus {
+  outline: none;
+  border: none;
+}
+
+textarea:focus {
+  outline: none;
+  border: none;
+}
 
 /* ===========================================
 /* media queries  

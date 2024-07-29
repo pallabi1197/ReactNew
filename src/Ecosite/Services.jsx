@@ -10,7 +10,7 @@ const Services = () => {
   console.log(services);
   return (
     <Wrapper className="section">
-      <h2 className="common-heading" style={{ fontSize: "3.4rem" }}>
+      <h2 className="common-heading" style={{ fontSize: "3.4rem", marginBottom:'30px' }}>
         Our Services
       </h2>
       <div className="container grid grid-three-column" style={{ gap: "3rem" }}>
@@ -37,12 +37,12 @@ const Services = () => {
 };
 
 const Wrapper = styled.section`
-  padding: 4rem 0;
-  background-color: #f7f7f7;
+  padding: 2rem 0;
+  background-color: #f5f5f5;
 
   .container {
     max-width: 120rem;
-    margin-top: 4rem;
+   
   }
 
   .card {

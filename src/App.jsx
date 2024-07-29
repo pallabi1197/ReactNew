@@ -12,6 +12,7 @@ import Footer from "./Ecosite/Footer";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./Globalstyle";
 import Usereduser from "./Usereduser";
+import Error from "./Ecosite/Error";
 
 function App() {
   const theme = {
@@ -49,6 +50,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Error />} />
           </Routes>
           <Footer />
         </BrowserRouter>
