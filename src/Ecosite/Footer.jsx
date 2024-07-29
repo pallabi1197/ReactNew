@@ -77,7 +77,7 @@ const Footer = () => {
         <div className="footer-bottom--section">
           <hr />
           <div className="container grid" style={{padding:'0'}}>
-            <p>
+            <p style={{textAlign:'center'}}>
               @{new Date().getFullYear()} All Rights Reserved
             </p>
            
@@ -111,7 +111,7 @@ background-color: #f5f5f5;
 
   .grid {
     display: grid;
-    padding:8rem 3rem 0;;
+    padding:8rem 2rem;
     gap: 9rem;
 }
   footer {
@@ -127,9 +127,10 @@ background-color: #f5f5f5;
 
     p {
       color: ${({ theme }) => theme.colors.white};
-      text-align:center;
       margin-top:0;
     }
+
+
     .footer-social--icons {
       display: flex;
       gap: 2rem;
