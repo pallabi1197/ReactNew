@@ -14,6 +14,10 @@ import { GlobalStyle } from "./Globalstyle";
 import Usereduser from "./Usereduser";
 import Error from "./Ecosite/Error";
 
+
+
+
+
 function App() {
   const theme = {
     colors: {
@@ -43,6 +47,7 @@ function App() {
       {/* <Usereduser/> */}
       <ThemeProvider theme={theme}>
         <GlobalStyle />
+        
         <BrowserRouter>
           <Header />
           <Routes>
@@ -53,6 +58,7 @@ function App() {
             <Route path="*" element={<Error />} />
           </Routes>
           <Footer />
+         
         </BrowserRouter>
       </ThemeProvider>
     </>

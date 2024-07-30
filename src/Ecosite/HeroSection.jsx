@@ -13,7 +13,7 @@ const HeroSection = () => {
             <p className="hero-top-data">Welcome to</p>
             <h1 className="hero-heading">{name}</h1>
             <p className="hero-para">
-              <span style={{fontSize:'20px'}}>{fname} his age is {age}</span> is a Mean-Stack Developer has proficiency in technical skills
+              {fname} his age is {age} is a Mean-Stack Developer has proficiency in technical skills
             </p>
 
            
@@ -76,6 +76,12 @@ const Wrapper = styled.section`
     .grid {
       gap: 7.2rem;
     }
+    .btn-hero {
+      width: 40rem;
+    }
+
+    .hero-para {font-size:2rem;
+    font-family:arial;}
   }
 `;
 
