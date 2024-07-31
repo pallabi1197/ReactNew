@@ -13,10 +13,8 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./Globalstyle";
 import Usereduser from "./Usereduser";
 import Error from "./Ecosite/Error";
-
-
-
-
+import GoToTop from "./Ecosite/GoToTop";
+import ScrollToTop from "./Ecosite/ScrollToTop";
 
 function App() {
   const theme = {
@@ -47,7 +45,7 @@ function App() {
       {/* <Usereduser/> */}
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        
+
         <BrowserRouter>
           <Header />
           <Routes>
@@ -57,8 +55,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Error />} />
           </Routes>
+        
+          <GoToTop />
           <Footer />
-         
         </BrowserRouter>
       </ThemeProvider>
     </>

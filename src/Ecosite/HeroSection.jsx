@@ -51,10 +51,11 @@ const Wrapper = styled.section`
 
   .hero-heading {
     text-transform: uppercase;
+    font-size: 2.5rem;
   }
 
   .hero-para {
-    margin-top: 1.5rem;
+   
     max-width: 60rem;
   }
 
