@@ -53,7 +53,7 @@ const Navbar = () => {
         border: ${({ theme }) => theme.colors.black};
 
         .mobile-nav-icon {
-          font-size: 4.2rem;
+          font-size: 3rem;
           color: ${({ theme }) => theme.colors.black};
         }
       }
@@ -82,7 +82,7 @@ const Navbar = () => {
           .navbar-link {
             &:link,
             &:visited {
-              font-size: 4.2rem;
+              font-size: 3rem;
             }
 
             &:hover,
